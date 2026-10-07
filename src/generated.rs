@@ -60,7 +60,7 @@ pub const XDR_FILES_SHA256: [(&str, &str); 13] = [
     ),
     (
         "xdr/Stellar-ledger.x",
-        "b6dec791414821d0bae7a11abb4a6b6143ce3e09d0030c580c9ece1815418b13",
+        "35c1d96aa2f39e737c3088e8b35bdf2099bed35f3959934a0552b76d92cdf9c5",
     ),
     (
         "xdr/Stellar-overlay.x",
@@ -72,7 +72,7 @@ pub const XDR_FILES_SHA256: [(&str, &str); 13] = [
     ),
     (
         "xdr/Stellar-types.x",
-        "1bf41da09307489c04c454d9081a3ddcd52d04ed9af173abeb308fe4907dc590",
+        "be1f32162c58275273ae2805a57bb69ec2fdb9ccc2313556f42bf08b9763e757",
     ),
 ];
 
@@ -5665,9 +5665,9 @@ pub use time_point::*;
 mod duration;
 #[allow(unused_imports)]
 pub use duration::*;
-mod time_point_milliseconds;
+mod time_point_ms;
 #[allow(unused_imports)]
-pub use time_point_milliseconds::*;
+pub use time_point_ms::*;
 mod extension_point;
 #[allow(unused_imports)]
 pub use extension_point::*;
